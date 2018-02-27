@@ -1,0 +1,14 @@
+.hotcoldgame {
+	margin-top: 100px;
+}
+
+.hotcoldgame h1 {
+	color: #FCF7F8;
+	text-align: center
+}
+
+@media only screen and (max-width: 767px) {
+	.hotcoldgame {
+		margin-top: 50px
+	}
+}

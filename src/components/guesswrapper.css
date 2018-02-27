@@ -1,0 +1,19 @@
+.hotcold {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FCF7F8;
+	border-radius: 10px;
+}
+
+@media only screen and (max-width: 1199px) {
+	.hotcold {
+		width: 60%
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.hotcold {
+		width: 80%
+	}
+}
