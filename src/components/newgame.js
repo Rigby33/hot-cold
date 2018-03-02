@@ -4,7 +4,7 @@ import './newgame.css';
 export default function NewGame(props) {
 	return (
 		<div className="newgame">
-		<button onClick={() => props.newgame()}>New Game</button>
+			<button onClick={() => props.newgame()}>New Game</button>
 		</div>
-		);
+	);
 }

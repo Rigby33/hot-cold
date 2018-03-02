@@ -6,5 +6,5 @@ export default function GuessResults(props) {
 		<div className="results">
 			<h2>{props.results}</h2>
 		</div>
-		);
+	);
 }

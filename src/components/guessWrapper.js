@@ -11,11 +11,11 @@ import './guesswrapper.css';
 export default function GuessWrapper(props) {
 	return (
 		<div className="hotcold">
-		<GuessResults results={props.results}/>
-		<GuessingForm onSubmitGuess={guess => props.onSubmitGuess(guess)}/>
-		<NumberOfGuesses guessnumber={props.guessnumber}/>
-		<Guesses guesses={props.guesses}/>
-		<NewGame newgame={() => props.newgame()}/>
+			<GuessResults results={props.results}/>
+			<GuessingForm onSubmitGuess={guess => props.onSubmitGuess(guess)}/>
+			<NumberOfGuesses guessnumber={props.guessnumber}/>
+			<Guesses guesses={props.guesses}/>
+			<NewGame newgame={() => props.newgame()}/>
 		</div>
-		);
+	);
 }
